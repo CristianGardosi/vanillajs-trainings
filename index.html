@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>MIX JS</title>
+</head>
+
+<body>
+    <!-- !NAVBAR -->
+
+    <!-- !MENU W/FILTERS -->
+    <section class="menu-container">
+        <div class="title">
+            <h2>
+                Menu filtered
+            </h2>
+            <div class="underline"></div>
+        </div>
+        <!-- Filter buttons w/ data-id that matches .dataset in JS and the category in the menu array -->
+        <div class="links-container">
+            <a class="filter-btn" data-id="all">
+                All
+            </a>
+            <a class="filter-btn" data-id="breakfast">
+                Breakfast
+            </a>
+            <a class="filter-btn" data-id="lunch">
+                Lunch
+            </a>
+            <a class="filter-btn" 
+            data-id="shakes">
+                Shakes
+            </a>
+        </div>
+        <!-- Menu items -->
+        <div class="section-center-menu">
+            <article class="menu-item">
+                <div class="item-img">
+                    <img src="./img/index.png" class="photo" alt="">
+                </div>
+                <div class="item-info">
+                    <div class="header-menu">
+                        <h4>OK</h4>
+                        <h4 class="price">1$</h4>
+                    </div>
+                    <p class="item-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque qui perferendis impedit eaque animi inventore natus aliquam soluta delectus consequuntur repellendus beatae veritatis, in quo labore? Ratione illum quas fuga?
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- !REVIEWS -->
+    <section class="reviews-container">
+        <div class="title">
+            <h2>
+                Our reviews
+            </h2>
+        </div>
+        <div class="underline"></div>
+        <article>
+            <div class="img-container">
+                <img src="./img/index.png" id="avatar" alt="Avatar">
+                <h4 id="author">
+                    Michael Jordan
+                </h4>
+                <p id="job">
+                    Ux Designer
+                </p>
+                <p id="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni quibusdam similique libero facere, voluptas nisi rem, necessitatibus repudiandae autem iusto at, officiis minus distinctio! Iure adipisci consequatur quibusdam voluptate cum!
+                </p>
+                <div class="prev-next-btn">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- !FAQ -->
+    <section class="questions">
+        <div class="title">
+            <h2>
+                Common questions
+            </h2>
+        </div>
+        <div class="underline"></div>
+        <div class="section-center">
+            <article class="question">
+                <div class="question-title">
+                    <h3>
+                        Do you accept credit cards?
+                    </h3>
+                    <button type="button" class="question-btn">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="question-text">
+                     <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus, nesciunt omnis libero neque aliquid cumque repellat, numquam, a unde commodi laboriosam voluptatibus autem quos sed nisi? Rem, voluptas quam!
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="section-center">
+            <article class="question">
+                <div class="question-title">
+                    <h3>
+                        Do you have a gallery of works that i can check?
+                    </h3>
+                    <button type="button" class="question-btn">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="question-text">
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus, nesciunt omnis libero neque aliquid cumque repellat, numquam, a unde commodi laboriosam voluptatibus autem quos sed nisi? Rem, voluptas quam!
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="section-center">
+            <article class="question">
+                <div class="question-title">
+                    <h3>
+                        Are you good at implementing plugins?
+                    </h3>
+                    <button type="button" class="question-btn">
+                        <span class="plus-icon">
+                            <i class="far fa-plus-square"></i>
+                        </span>
+                        <span class="minus-icon">
+                            <i class="far fa-minus-square"></i>
+                        </span>
+                    </button>
+                </div>
+                <div class="question-text">
+                     <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint natus, nesciunt omnis libero neque aliquid cumque repellat, numquam, a unde commodi laboriosam voluptatibus autem quos sed nisi? Rem, voluptas quam!
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+
+
+    
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
